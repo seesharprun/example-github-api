@@ -1,7 +1,5 @@
 namespace Example.Console.Models;
 
-using System.Text.Json.Serialization;
-
 public record SearchResult(
     string Title,
     int Number,
